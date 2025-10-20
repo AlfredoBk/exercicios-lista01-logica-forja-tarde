@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+h1{
+     font-family: "BBH Sans Bartle", sans-serif;
+     color: rgb(255, 255, 255);
+}
+body{
+     font-family: "Roboto Slab", serif; 
+     background-image: url('../gorgonsola/luci.png');
+     color: rgb(255, 3, 3);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     min-height: 100vh;
+     padding: 10px;
+}
+
+section{
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+}
+
+input{
+    padding: 10px;
+    background: transparent;
+    border: 2px solid #ffe600;
+    color: #ffffff;
+}
+ 
+button{
+     padding: 10px;
+    background: #b10505;
+    border: 2px solid #ffffff;
+    color: #ffff;
+}
+
+button :hover{
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+}
